@@ -24,9 +24,9 @@ import io.temporal.api.common.v1.WorkflowExecution;
 import io.temporal.internal.sync.StubMarker;
 
 /**
- * Supports signalling and cancelling any workflow by the workflow type and their id. This is
- * useful when an external workflow type is not known at compile time and to call workflows in
- * other languages.
+ * Supports signalling and cancelling any workflow by the workflow type and their id. This is useful
+ * when an external workflow type is not known at compile time and to call workflows in other
+ * languages.
  *
  * @see Workflow#newUntypedExternalWorkflowStub(String)
  */
